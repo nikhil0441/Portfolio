@@ -1,0 +1,302 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Nikhil Patel</title>  
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/img/logo.jpeg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+        <!-- AOS Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1 class="logo">Portfo<span>lio</span></h1>
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+       <!-- Home Section -->
+<section id="home" data-aos="fade-up" data-aos-duration="1000">
+    <div class="home-container" style="max-width: 99.5%;">
+        <div class="home-content">
+            <h4>Hello, My name is</h4>
+            <h1>Nikhil <span id="typing">Patel</span></h1>
+
+            <h3>I'm a Student & <span>Developer</span>.</h3>
+            <p>
+                I create visually stunning websites and applications. Passionate about 
+                UI/UX, frontend development, and pixel-perfect design.
+            </p>
+            <form class="subscribe">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Connect Now</button>
+            </form>
+        </div>
+    </div>
+</section>
+ 
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up" data-aos-duration="1200">
+        <div class="about-container">
+            <div class="about-img" data-aos="zoom-in" data-aos-duration="1200">
+                <img src="/img/nikhil photo.jpg" alt="Nikhil Patel">
+            </div>
+            <div class="about-text" data-aos="fade-left" data-aos-duration="1200">
+                <h2>About Me</h2>
+                <h5>Student & <span>Developer</span></h5>
+                <p>
+                    I am an aspiring app developer with a passion for creating innovative 
+                    and user-friendly applications. My goal is to contribute to impactful projects 
+                    and grow as a developer in the ever-evolving tech industry.
+                </p>
+                <button class="btn">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" data-aos="fade-up" data-aos-duration="1200">
+        <h2>Our Services</h2>
+        <p id="typing-services" class="service-intro"></p>
+        <div class="services-container">
+            <div class="service-card" data-aos="flip-left" data-aos-duration="1000">
+                <i class="fa-solid fa-code"></i>
+                <h5>Data Science And Data Analysis</h5>
+                <p>I have experience in data cleaning, analysis, visualization, and using Python, SQL, and machine learning algorithms.</p>
+            </div>
+            <div class="service-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                <i class="fa-solid fa-video"></i>
+                <h5>Video & Photo Editing</h5>
+                <p>Transforming raw visuals into engaging, high-quality content.</p>
+            </div>
+            <div class="service-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+                <i class="fa-solid fa-cogs"></i>
+                <h5>Programming</h5>
+                <p>Developing efficient and scalable solutions for various applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" data-aos="fade-up" data-aos-duration="1200">
+        <h2>My Skills</h2>
+        <p class="skills-intro">--- What I Know ---</p>
+
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <h4>Excel</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%"></div>
+                </div>
+                <span>55%</span>
+            </div>
+            <div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <h4>Power BI</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%"></div>
+                </div>
+                <span>90%</span>
+            </div>
+            <div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <h4>Canva</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%"></div>
+                </div>
+                <span>55%</span>
+            </div>
+
+            <div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <h4>Figma</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%"></div>
+                </div>
+                <span>65%</span>
+            </div>
+            <div class="skill-card" data-aos="fade-right" data-aos-duration="1000">
+                <h4>HTML</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%"></div>
+                </div>
+                <span>65%</span>
+            </div>
+            
+            <div class="skill-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <h4>CSS</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+                <span>40%</span>
+            </div>
+
+            <div class="skill-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                <h4>Python</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%"></div>
+                </div>
+                <span>80%</span>
+            </div>
+            
+            <!-- <div class="skill-card" data-aos="fade-left" data-aos-duration="1000">
+                <h4>C++</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+                <span>90%</span>
+            </div> -->
+
+            <div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <h4>JavaScript</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+                <span>45%</span>
+            </div>
+
+            <div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <h4>React</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%"></div>
+                </div>
+                <span>55%</span>
+            </div><div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <h4>MongoDB</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%"></div>
+                </div>
+                <span>80%</span>
+            </div><div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <h4>MySQL</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%"></div>
+                </div>
+                <span>90%</span>
+            </div>
+            <div class="skill-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <h4>Maching Learing</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%"></div>
+                </div>
+                <span>55%</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up" data-aos-duration="1200">
+        <div class="contact-container">
+            <h2>Let's Build Something Great Together</h2>
+            <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+            
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="db9e72be-ccef-46df-b669-10e6dc97b8bd">
+                <input type="text" name="name" placeholder="Your Name" required data-aos="fade-right">
+                <input type="email" name="email" placeholder="Your Email" required data-aos="fade-left">
+                <textarea name="message" placeholder="Your Message" required data-aos="fade-up"></textarea>
+                <button type="submit" class="btn" data-aos="zoom-in">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>Email: <a href="mailto:Vanshchouksey2175@gmail.com">Vanshchouksey2175@gmail.com</a></p>
+                <p>For more details, feel free to reach out.</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+
+            <p class="copyright">&copy; 2025 All rights reserved by <span>Vansh Chouksey</span></p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        
+        AOS.init({
+            duration: 1000, // Animation duration in milliseconds
+            once: true,     // Ensures animation runs only once
+            mirror: false   // Disable repeating animations on scroll
+        });AOS.init({
+    duration: 1000,
+    once: false,  // ✅ Allow animations to replay
+    mirror: true  // ✅ Enable reverse animation when scrolling up
+});
+
+window.addEventListener('scroll', () => {
+    AOS.refresh();  // ✅ Refresh AOS on scroll
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Skill Bar Animation on Scroll
+    let skillsSection = document.getElementById("skills");
+    let skillBars = document.querySelectorAll(".progress");
+
+    function showProgressBars() {
+        let sectionPos = skillsSection.getBoundingClientRect().top;
+        let screenPos = window.innerHeight / 1.2;
+
+        if (sectionPos < screenPos) {
+            skillBars.forEach(bar => {
+                let targetWidth = bar.getAttribute("data-percent"); // Use data-percent instead of inline styles
+                bar.style.width = targetWidth;
+            });
+        }
+    }
+
+    // Typing Animations
+    var typed = new Typed('#typing', {
+        strings: ["Patel"],
+        typeSpeed: 100,
+        backSpeed: 150,
+        loop: true
+    });
+
+    var typedServices = new Typed('#typing-services', {
+        strings: ["Providing high-quality services.", "Building web applications.", "Enhancing digital experiences."],
+        typeSpeed: 45,
+        backSpeed: 45,
+        loop: true
+    });
+
+    // Event Listeners
+    window.addEventListener("scroll", showProgressBars);
+});
+
+// Hamburger Menu Toggle
+function toggleMenu() {
+    let nav = document.querySelector(".nav-links");
+    nav.classList.toggle("active");
+}
+
+    </script>
+
+    </body>
+    </html>
